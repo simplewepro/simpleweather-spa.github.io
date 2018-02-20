@@ -1,6 +1,6 @@
 # Hello there!
 
-So this Single Page Application can give you short information about weather in any city!
+So this Single Page Application can give you short information about weather in any city! <br>
 Weather data is provided by http://openweathermap.org/
 
 # Getting started
