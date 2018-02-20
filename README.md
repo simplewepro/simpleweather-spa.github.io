@@ -5,7 +5,7 @@ Weather data is provided by http://openweathermap.org/
 
 # Getting started
 
-In first you need to have Node.js installed. If not - visit [here](https://nodejs.org/en/).
+In first you need to have Node.js installed. If not - visit [here](https://nodejs.org/en/). <br>
 Then you need an http-server.
 
 Just use <br>
