@@ -18,4 +18,4 @@ and run it in root path <br>
 In next few days.
 
 >- Redevelop search bar, add livesearch with select-type dropdown list. <br>
->- Fix an error, occurred when adding city, that does not exist in citylist of openweather.
+>- Fix an error, occurring when you add city, that does not exist in citylist of openweather.
