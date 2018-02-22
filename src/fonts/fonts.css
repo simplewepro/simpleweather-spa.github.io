@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'OpenSansRegular';
+    src: url('OpenSansRegular.eot');
+    src: url('OpenSansRegular.eot') format('embedded-opentype'),
+         url('OpenSansRegular.woff2') format('woff2'),
+         url('OpenSansRegular.woff') format('woff'),
+         url('OpenSansRegular.ttf') format('truetype'),
+         url('OpenSansRegular.svg#OpenSansRegular') format('svg');
+}
+@font-face {
+    font-family: 'OpenSansBold';
+    src: url('OpenSansBold.eot');
+    src: url('OpenSansBold.eot') format('embedded-opentype'),
+         url('OpenSansBold.woff2') format('woff2'),
+         url('OpenSansBold.woff') format('woff'),
+         url('OpenSansBold.ttf') format('truetype'),
+         url('OpenSansBold.svg#OpenSansBold') format('svg');
+}
+@font-face {
+    font-family: 'OpenSansSemiBold';
+    src: url('OpenSansSemiBold.eot');
+    src: url('OpenSansSemiBold.eot') format('embedded-opentype'),
+         url('OpenSansSemiBold.woff2') format('woff2'),
+         url('OpenSansSemiBold.woff') format('woff'),
+         url('OpenSansSemiBold.ttf') format('truetype'),
+         url('OpenSansSemiBold.svg#OpenSansSemiBold') format('svg');
+}
+@font-face {
+    font-family: 'OpenSansLight';
+    src: url('OpenSansLight.eot');
+    src: url('OpenSansLight.eot') format('embedded-opentype'),
+         url('OpenSansLight.woff2') format('woff2'),
+         url('OpenSansLight.woff') format('woff'),
+         url('OpenSansLight.ttf') format('truetype'),
+         url('OpenSansLight.svg#OpenSansLight') format('svg');
+}

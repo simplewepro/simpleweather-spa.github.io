@@ -1,0 +1,74 @@
+.container{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #f9f9f9;
+}
+/*====== Header ======*/
+.form_wrapper{
+    display: flex;
+    align-items: center;
+    flex-basis: 75px;
+    width: 100%;
+    background-color: #2B2F3E;
+}
+.weather_input{
+    height: 32px;
+    width: 300px;
+    margin-left: 40px;
+
+    background: none;
+    border: none;
+    border-bottom: 2px solid rgba(247, 247,247, .5);
+    box-sizing: border-box;
+    
+    color: #fff;
+    font-family: 'OpenSansRegular';
+    font-size: 1.2em;
+
+    transition: .2s;
+}
+.weather_input:focus{
+    border-color: #f9f9f9;
+}
+
+.add_button{  
+    height: 36px;
+    width: 100px;
+    margin-left: 20px;
+
+    color: #f9f9f9;
+    font-family: 'OpenSansSemibold';
+    font-size: 1.2em;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 8px;
+    background: none;
+
+    cursor: pointer;
+    transition: .2s;
+}
+.add_button:hover{
+    color: #2B2F3E;
+    background: #f9f9f9;
+}
+/*====== Content ======*/
+
+.cards_wrapper{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1180px;
+    padding-top: 60px;
+}
+.cards_wrapper::after,
+.cards_wrapper::before{
+    content: '';
+    flex-basis: 22%;
+    min-width: 250px;
+    height: 0;
+    order: 1;
+}
